@@ -1,10 +1,9 @@
 #=========================================================================================
 # NBA Individual- and Team-Level Data Scrape
-#=========================================================================================
 # Coder: Rak
 # Updated: 2022-07-31
-
-### nbastatR Package 
+#=========================================================================================
+### Load packages
 Sys.setenv("VROOM_CONNECTION_SIZE" = 131072 * 2) # expand max connection size; otherwise error occurs. I arbitrarily chose a large number that worked.
 # library(devtools)
 # devtools::install_github("abresler/nbastatR")
