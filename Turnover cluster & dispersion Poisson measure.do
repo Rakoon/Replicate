@@ -1,10 +1,5 @@
-************************************************************************
+/***********************************************************************
 * Turnover Dispersion Set-up .Do file
-************************************************************************
-/*	
-*========*
-* Readme *
-*========*
 Coder: Rak
 Updated: 2023-10-19
 This file calculates turnover dispersion within each time unit (1 month) based on the original measure from Call, Nyberg, Ployhart, & Weekley (2015) AMJ
@@ -14,7 +9,7 @@ Required materials:
 -	Stata packages:
 		search filelist			// for getting files in a directory
 		search nbvargr			// for getting Poisson distributions
-*/
+***********************************************************************/
 	
 *==============================*
 * Load and clean turnover data *
